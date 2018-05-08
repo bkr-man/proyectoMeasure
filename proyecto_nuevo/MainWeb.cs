@@ -28,7 +28,7 @@ namespace proyecto_nuevo
         {
             try
             {
-                string expectedtitle = "Learning Locker";
+                string expectedtitle = "Learning Locke";
                 driver.Navigate().GoToUrl(baseURL);
                 driver.FindElement(By.Name("name")).Click();
                 driver.FindElement(By.Name("name")).SendKeys("mdgarcia");
